@@ -17,7 +17,15 @@ pnpm install --frozen-lockfile
 pnpm dev
 ```
 
-## Local Build with Production Level Optimisation
+For a more optimised build, run.
+
+```sh
+pnpm build && pnpm preview
+```
+
+## ~~Local Build with Production Level Optimisations on Docker~~
+
+Note that the current docker image is not working, use the above to run locally.
 
 ```sh
 docker build -t pookie-career-advisor .
